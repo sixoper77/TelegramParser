@@ -4,13 +4,10 @@ def save_to_excel(users_data, filename='users_test_555.xlsx'):
     wb = Workbook()
     ws = wb.active
     ws.title = "Users"
-
-    # Заголовки
     headers = ['id', 'username', 'first_name', 'last_name','phone','bot']
     ws.append(headers)
     for cell in ws[1]:
         cell.font = Font(bold=True)
-    # Данные
     for user in users_data:
         ws.append([
             user.get('id', ''),
