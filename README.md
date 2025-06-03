@@ -21,9 +21,7 @@ pip install -r requirements.txt
 Далее,создайте приложение и получите api_id и api_hash(достаточно заполнить первые 2 поля)
 
 ### 3.Создайте файл .env
-```bash
-python -m venv venv
-```
+
 и заполните поля 
 API_ID=
 API_HASH=
