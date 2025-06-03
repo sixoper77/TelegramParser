@@ -1,6 +1,6 @@
 from openpyxl.styles import Font
 from openpyxl import Workbook
-def save_to_excel(users_data, filename='users_test_555.xlsx'):
+def save_to_excel(users_data, filename='file.xlsx'):
     wb = Workbook()
     ws = wb.active
     ws.title = "Users"
